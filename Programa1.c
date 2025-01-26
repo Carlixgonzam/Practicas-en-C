@@ -48,3 +48,4 @@ int funcion(){
     }
     return 0;
 }
+//Tengo que llamar la funcion siempre en el main
