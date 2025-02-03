@@ -4,7 +4,11 @@
 #include <unistd.h>  // Para sleep() en sistemas UNIX
 // Para Windows, comenta la línea anterior y descomenta la siguiente:
 // #include <windows.h>
-
+/*Las reglas son concisas:
+	•	Supervivencia: Una célula viva con dos o tres vecinos vivos continúa viviendo.
+	•	Muerte: Una célula viva muere por soledad (menos de dos vecinos vivos) o por sobrepoblación (más de tres vecinos vivos).
+	•	Nacimiento: Una célula muerta se vuelve viva si tiene exactamente tres vecinos vivos.
+*/
 // Prototipos de funciones
 int **createBoard(int rows, int cols);
 void freeBoard(int **board, int rows);
